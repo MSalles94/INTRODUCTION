@@ -1,0 +1,144 @@
+<html>
+<style>
+	.fundo{
+	background-color: blue;
+	color:white;
+	padding:0;
+	margin:0;
+	text-align:center;
+	position:relative;
+	}
+	
+	.titulo{
+	text-align:center;
+	padding:10px;
+	color: blue;
+	font-size:40px;
+	background-color:white;
+	font-weight:900;
+	margin:20px
+	}
+
+	.calculadora{
+	height:450px;
+	width:400px;
+	left: 50%;
+	transform: translate(-50%,5%);
+	background-color:white;
+	color: blue;
+	position:absolute;
+	border-radius:20px;
+	box-shadow:10px 10px 10px black;
+	}
+
+	#display{
+	background-color:black;
+	color: white;
+	padding:5px;
+	font-size:50px;
+	margin:10px 20px 20px 10px;
+	border-radius:5px;
+	height:50px;
+	
+	}
+
+
+	.button{
+	padding:4px;
+	width:80px;
+	margin:5px;
+	cursor: pointer;
+	font-size:30px;
+	font-weight:900;
+	border-radius:5px;
+	box-shadow:4px 4px 4px black;
+	
+	}
+	
+
+</style>
+<!---------------------------!>
+<script>
+	
+	function insert(x){
+		var num=document.getElementById('display').innerHTML;
+		document.getElementById('display').innerHTML=num + x
+		}
+
+	function limpar(){
+		document.getElementById('display').innerHTML='';
+		}
+	function back() {
+		var num = document.getElementById('display').innerHTML;
+		document.getElementById('display').innerHTML =num.substring(0, num.length -1);
+		}
+	function calcular(){
+		var dsp = document.getElementById('display').innerHTML;
+		if(dsp){
+		var x=eval(dsp);
+		
+		
+		document.getElementById('display').innerHTML =x;
+		}
+		else{document.getElementById('display').innerHTML='VAZIO'}
+		}
+
+
+</script>
+<!---------------------------!>
+<head><title>CALCULADORA</title></head>
+
+<body class='fundo'>
+
+	<p class='titulo'>CALCULADORA</p>
+
+	<div class='calculadora'> 
+	
+	<p id='display'></p>
+	
+	<table>
+		<tr>
+			<td><button class='button' style='background-color:grey' type='button' onclick="limpar()">C</button></td>
+			<td><button class='button' style='background-color:grey' type='button' onclick="back()"><</button></td>
+			<td><button class='button' style='background-color:grey' type='button' onclick="insert('*')">X</button></td>
+			<td><button class='button' style='background-color:grey' type='button' onclick="insert('/')">/</button></td>
+		</tr>
+
+		<tr>
+			<td><button class='button' onclick="insert('7')">7</button></td>
+			<td><button class='button' onclick="insert('8')">8</button></td>
+			<td><button class='button' onclick="insert('9')">9</button></td>
+			<td><button class='button' style='background-color:grey' onclick="insert('-')">-</button></td>
+		</tr>
+		<tr>
+			<td><button class='button' onclick="insert('4')">4</button></td>
+			<td><button class='button' onclick="insert('5')">5</button></td>
+			<td><button class='button' onclick="insert('6')">6</button></td>
+			<td><button class='button' style='background-color:grey' onclick="insert('+')">+</button></td>
+		</tr>
+		<tr>
+			<td><button class='button' onclick="insert('1')">1</button></td>
+			<td><button class='button' onclick="insert('2')">2</button></td>
+			<td><button class='button' onclick="insert('3')">3</button></td>
+			<td rowspan='2'><button class='button' style='height:120px ;background-color:grey ' onclick="calcular()">=</button></td>
+		</tr>
+		<tr>
+			<td colspan='2'><button class='button' style='width:180px ' onclick="insert('0')">0</button></td>
+			<td><button class='button' style='background-color:grey' onclick="insert('.')">.</button></td>
+		</tr>
+		
+	
+	
+	
+	</table>
+	
+	
+	
+	 </div>
+
+
+
+</body>
+
+
+</html>
