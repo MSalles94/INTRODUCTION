@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @MSalles94 - Matheus
-- 👀 I’m interested in learning
-- 🌱 I’m currently learning HTML,CSS and, JS
-- 💞️ I’m looking to collaborate on nothing for now, but I´m working on it.
-- 📫 How to reach me -> by here.
+- 👋 Hi, I’m @MSalles94 = (Matheus);
 
-<!---
-MSalles94/MSalles94 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👀 I’m interested in learning and/or find some jobs;
+
+- 🌱 I’m currently learning HTML,CSS and, JS (Web development-frontend and backend);
+- 💞️ I’m looking to collaborate on myself as a developer;
+- 📫 How to reach me:
+- LinkedIn: https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/?msgControlName=reply_to_sender&msgConversationId=2-YzI4ZmRkNGQtYjU0OC00YWU5LTkzOWMtZWNkMzhkNjAxYzlmXzAxMg%3D%3D&msgOverlay=true.;
+- E-mail: matheus.salles_1994@hotmail.com;
