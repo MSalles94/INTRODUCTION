@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @MSalles94 = (Matheus);
 
--Currently,I'm an analyst, and  make projects for an industry. Basicly, I work with data. My main tool is Excel.
+- Currently,I'm an analyst, and  make projects for an industry. Basicly, I work with data. My main tool is Excel;
 
-- 👀 I’m interested in learning and/or find some jobs as a developer.
+- 👀 I’m interested in learning and/or find some jobs as a developer;
 
 - 🌱 I’m learning HTML,CSS and, JS (Web development-frontend and backend);
 - 💞️ I’m looking to collaborate on myself as a developer;
