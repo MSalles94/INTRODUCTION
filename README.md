@@ -1,5 +1,7 @@
 - 👋 Hi, I’m @MSalles94 = (Matheus);
 
+- I'm brasilian;
+
 - Currently,I'm an analyst, and  make projects for an industry. Basicly, I work with data. My main tool is Excel;
 
 - 👀 I’m interested in learning and/or find some jobs as a developer;
